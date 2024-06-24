@@ -7,7 +7,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: pitstop.com  # Change this to your domain
+  - host: pitstop-webapp.com  # Change this to your domain
     http:
       paths:
       - path: /
